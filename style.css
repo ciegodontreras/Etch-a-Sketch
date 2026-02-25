@@ -1,5 +1,25 @@
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
 .container {
     border: 1px solid black;
-    display: grid;
-    height: 100vh;
+    height: 80%;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boxes {
+    cursor: pointer;
+    transition: background-color 0.5s ease-out;
+}
+
+.boxes:hover {
+    background-color: lightblue;
+
 }
