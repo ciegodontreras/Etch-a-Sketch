@@ -20,7 +20,8 @@ const grid = (columns, rows) => {
 }
 
 createGrid.addEventListener('click', () => {
+    container.innerHTML = ''; 
     let columnValue = columnNum.value; 
     let rowValue = rowNum.value;
-    grid(columnValue, rowValue); 
+    grid(columnValue, rowValue);  
 }); 
